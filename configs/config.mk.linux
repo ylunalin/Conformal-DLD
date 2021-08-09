@@ -1,0 +1,8 @@
+# This is a sample config file for MacPorts installed GNU complier
+# To use copy into ../ and delete the suffix .linux
+# Replace the compiler commands and the flags with ones on your computing system
+# Compiler and compilation flags
+cc=gcc
+cxx=g++
+#cflags=-Wall -ansi -pedantic -march=native -O3 -fopenmp -std=c++11 -fPIC -lstdc++fs -Wno-variadic-macros -g -ggdb
+cflags=-Wall -ansi -pedantic -march=native -O0 -fopenmp -std=c++11 -fPIC -lstdc++fs -Wno-variadic-macros -g

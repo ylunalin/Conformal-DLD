@@ -1,4 +1,4 @@
-include ../../config.mk
+include config.mk
 lflags=-L. `gsl-config --libs`
 iflags=`gsl-config --cflags`
 
@@ -21,7 +21,7 @@ depend:
 	$(cxx) $(cflags) $(iflags) -MM $(src) >Makefile.dep
 
 clean:
-	rm -rf $(objs) $(execs)
+	rm -rf $(objs) $(execs) *.dSYM
 
 # -c flag compiles but not link
 %.o: %.cc
