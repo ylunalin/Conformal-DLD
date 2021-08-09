@@ -1,7 +1,6 @@
 # Conformal-DLD
 
 This is a discrete computation model to simulation diffusion-limited dissolution.
-Coming soon.
 
 Authors: Yuexia Luna Lin, Chris H. Rycroft
 
