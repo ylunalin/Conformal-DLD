@@ -1,0 +1,10 @@
+common.o: common.cc common.hh
+kdtree.o: kdtree.cc kdtree.hh particle.hh
+worklist.o: worklist.cc worklist.hh
+dld_sim.o: dld_sim.cc dld_sim.hh common.hh particle.hh kdtree.hh \
+ worklist.hh sim_params.hh
+dld_msgs.o: dld_msgs.cc dld_sim.hh common.hh particle.hh kdtree.hh \
+ worklist.hh sim_params.hh
+dld_data_procs.o: dld_data_procs.cc dld_sim.hh common.hh particle.hh \
+ kdtree.hh worklist.hh sim_params.hh
+sim_params.o: sim_params.cc sim_params.hh common.hh
